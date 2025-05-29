@@ -3,6 +3,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/food-Delivery-Website/', // must exactly match your GitHub repo name
+  base: '/food-Delivery-Website/',  
   plugins: [react()],
 });
